@@ -5,15 +5,15 @@
 ## Results
 #### Stock Performance
   After running the macro on each year of data, it can be seen that in 2017 all of the stocks except TERP saw at least some increase in value. In 2018 however, all stocks except ENPH and RUN saw declines in value.
-#### [Stock Performance 2017]()
-#### [Stock Performance 2018]()
+#### [Stock Performance 2017](https://github.com/SamuelBerryProgramming/VBA_Excel_Analysis/blob/master/Resources/2017_Results.png)
+#### [Stock Performance 2018](https://github.com/SamuelBerryProgramming/VBA_Excel_Analysis/blob/master/Resources/2018_Results.png)
 
 #### Code Performance
   At runtime, both the original and refactored code acheived the same numerical results from the data set. The original code utilized two for loops, one nested into the other. This resulted in iteration over all rows twelve times, once for every stock ticker. The original code took slightly longer than one second when ran on each year, while the refactored code took approximately 0.17 seconds to complete. The refactored code uses a single for loop to iterate through the rows once, while using three arrays and an index to keep track of each stock ticker. The new code ran nearly six times faster than the original.
-#### [Original Code Performance 2017]()
-#### [Original Code Performance 2018]()
-#### [Refactored Code Performance 2017]()
-#### [Refactored Code Performance 2018]()
+#### [Original Code Performance 2017](https://github.com/SamuelBerryProgramming/VBA_Excel_Analysis/blob/master/Resources/VBA_Original_2017.png)
+#### [Original Code Performance 2018](https://github.com/SamuelBerryProgramming/VBA_Excel_Analysis/blob/master/Resources/VBA_Original_2018.png)
+#### [Refactored Code Performance 2017](https://github.com/SamuelBerryProgramming/VBA_Excel_Analysis/blob/master/Resources/VBA_Challenge_2017.png)
+#### [Refactored Code Performance 2018](https://github.com/SamuelBerryProgramming/VBA_Excel_Analysis/blob/master/Resources/VBA_Challenge_2018.png)
 
 ## Summary
 #### Advantages and Disadvantages of Refactoring Code
