@@ -1,6 +1,6 @@
 # Analysis on Stock and Script Performance
 ## Purpose
-  A macro was written to perform analysis of total volume and yearly return on two different years of data for twelve different stocks. The original code used a nested for loop to iterate through all the rows twelve times, once for each of the different stocks. The code was then refactored to loop through all the rows a single time, keeping track of each stocks ticker. After refactoring, modest performance gains were obtained. 
+  A macro was written to perform analysis of total volume and yearly return on two different years of data for twelve different stocks. The original code used a nested for loop to iterate through all the rows twelve times, once for each of the different stocks. The code was then refactored to loop through all the rows a single time, keeping track of each stock's ticker. After refactoring, modest performance gains were obtained. 
   
 ## Results
 #### Stock Performance
@@ -17,7 +17,7 @@
 
 ## Summary
 #### Advantages and Disadvantages of Refactoring Code
-  Some advantages of refactoring code are possible performance improvements, better maintainability, and increased reusability. This is acheived by going through old code and compartmentalizing the logic into units, making descriptive comments, and reducing the amount of code used to do the work. Possible disadvantages are the amount to time consumed dissecting the original code, reassembling the code, and debugging it all. After all that, it is still possible for the code to run in a new, unexpected way that introduces defects in the new solution. Returns are also diminished based on how well the code ran in the first place.
+  Some advantages of refactoring code are possible performance improvements, better maintainability, and increased reusability. This is acheived by going through old code and compartmentalizing the logic into units, making descriptive comments, and reducing the amount of code used to do the work. Possible disadvantages are the amount of time consumed dissecting the original code, reassembling the code, and debugging it all. After all that, it is still possible for the code to run in a new, unexpected way that introduces defects in the new solution. Returns are also diminished based on how well the code ran in the first place.
   
 #### Original vs. Refactored VBA
   Considering these positive and negative aspects of refactoring, the largest benefit this VBA script received was an increase in performance. While the times to completion were perceptually negligible when ran on this data set, the refactored code would be much quicker when ran on larger data sets than the original. Even though maintainability was not increased, it became much more viable to use this script in other circumstances. The drawback was the amount of time it took to change this code which was already working just fine for its application. 
